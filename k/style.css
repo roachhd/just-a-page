@@ -1,0 +1,266 @@
+* {
+  margin:0;
+  padding:0;
+}
+
+body {
+  font-family:Helvetica, sans-serif;
+  font-size:13px;
+  color:#c2c2cf;
+  background:#fff;
+}
+
+p#start {
+  font-size:11px;
+  color:#666;
+  padding:30px;
+}
+
+p#start a {
+  color:#333;
+  font-weight:bold;
+}
+
+p#start a:hover {color:#000;}
+
+#note {display:none;}
+
+#header {
+  width:100%;
+  height:97px;
+  background:url(http://konamicodesites.s3.amazonaws.com/images/header_back.png) repeat-x;
+  position:fixed !important;
+  position:absolute;
+  top:0;
+  left:0;
+  z-index:2;
+}
+
+#header .wrap {
+  width:840px;
+  height:80px;
+  background:url(http://konamicodesites.s3.amazonaws.com/images/header_back.png) repeat-x;
+  position:relative;
+}
+
+#header h1 {
+  padding:29px 0 0 29px;
+}
+
+#header h1 a {
+  background:url(http://konamicodesites.s3.amazonaws.com/images/konami_code_sites.png) no-repeat;
+  display:block;
+  width:268px;
+  height:19px;
+}
+
+#header h1 a span {display:none;}
+
+a#follow_us {
+  position:absolute;
+  right:0;
+  top:26px;
+  display:block;
+  background:url(images/twitter.png) no-repeat 100% 0;
+  height:23px;
+  padding:6px 35px 0 0;
+  text-align:right;
+  font-style:italic;
+  white-space:nowrap;
+  text-shadow:#16161a 1px 1px 0;
+}
+
+a#follow_us:hover {color:#fff;}
+
+#main {
+  width:840px;
+  position:absolute;
+  top:80px;
+  left:0;
+  z-index:1;
+}
+
+ul#sites_list {
+  list-style-type:none;
+  width:580px;
+  background:url(images/list_middle.png) repeat-y;
+  margin:0 0 0 13px;
+  padding:0 30px 0 15px;
+}
+
+ul#sites_list li a {
+  display:block;
+  height:50px;
+  padding:10px 0 0 22px;
+  background:url(images/row_back.jpg) repeat-x;
+  border-top:1px solid #fff;
+  font-weight:normal;
+}
+
+ul#sites_list li:first-child a {border:none;}
+
+ul#sites_list li a:hover {background-position:0 -60px;}
+ul#sites_list li a:active {background-position:0 -120px;border-color:#c5c5d1;}
+
+ul#sites_list h3 a strong {
+  font-size:20px;
+  font-weight:normal;
+  color:#292930;
+  display:block;
+/*  text-shadow:#fff 1px 1px 0;*/
+}
+
+ul#sites_list li a em {
+  font-size:11px;
+  font-style:normal;
+  color:#69697d;
+}
+
+ul#sites_list li a em span.desc {
+  color:#fff;
+  text-shadow:#9e9ea8 1px 1px 1px;
+}
+
+#list_footer {
+  background:url(images/list_bottom.png) no-repeat;
+  width:610px;
+  height:42px;
+  margin:0 13px 0 13px;
+  padding-top:50px;
+}
+
+#code_image {
+  background:url(images/code.png) no-repeat;
+  width:200px;
+  height:18px;
+  margin:0 auto;
+}
+
+#rightbar {
+  float:right;
+  width:200px;
+  padding:30px 0 0 0;
+}
+
+#rightbar h2 {
+  text-indent:-99999px;
+  display:block;
+  background:url(images/a_list_of_known.png) no-repeat;
+  width:199px;
+  height:59px;
+}
+
+.border_spacer {
+  background:url(http://konamicodesites.s3.amazonaws.com/images/right_spacer.gif) repeat-x;
+  height:2px;
+  margin:20px 0;
+}
+
+#rightbar p {
+  line-height:22px;
+  font-size:13px;
+  text-shadow:#16161a 1px 1px 1px;
+}
+
+#rightbar p a {
+  color:#fff;
+}
+
+#submission {
+  background:#77778c;
+  border-top:1px solid #43434f;
+  color:#303038;
+  margin:10px 0 0;
+  -webkit-border-bottom-left-radius:4px;
+  -webkit-border-bottom-right-radius:4px;
+  -moz-border-radius:0 0 4px 4px;
+}
+
+#rightbar #submission p {
+  padding:5px;
+  text-shadow:none;
+  font-size:12px;
+  font-weight:bold;
+  line-height:17px;
+}
+
+#submission a {
+  display:block;
+  background:#43434f;
+  padding:4px;
+  margin-top:4px;
+  text-transform:uppercase;
+  font-size:11px;
+  text-align:center;
+  -webkit-border-radius:4px;
+  -moz-border-radius:4px;
+}
+
+#submission a:hover {background:#303038;}
+
+#iphonebox {
+  padding:2px 0 0 4px;
+  margin:0 0 10px;
+  background:#2e2d34;
+  line-height:0;
+  -webkit-border-radius:4px;
+  -webkit-box-shadow:#1f1f24 0 -1px 0;
+  -moz-border-radius:4px;
+}
+
+#feedbox {
+  background:url(http://konamicodesites.s3.amazonaws.com/images/community_feedback_icon.png) no-repeat;
+  text-shadow:#16161a 1px 1px 1px;
+}
+
+#feedbox h3 {
+  display:block;
+  padding:3px 0 15px 50px;
+  font-size:14px;
+  line-height:18px;
+}
+
+#feedbox .box a {
+  display:block;
+  background:#3f3e47;
+  padding:8px;
+  -webkit-border-radius:4px;
+  -webkit-box-shadow:#323239 0 -1px 0;
+  -webkit-transition:0.5s text-shadow;
+  -moz-border-radius:4px;
+}
+
+#feedbox .box a:hover {
+  color:#fff;
+  text-shadow:#ccccd9 0 0 10px;
+}
+
+#feedbox .box a em {
+  display:block;
+  font-family:Georgia, "Times New Roman", Times, serif;
+  font-size:15px;
+  line-height:23px;
+  text-align:center;
+  padding:3px 0;
+}
+
+#feedbox .box a strong {
+  display:block;
+  text-align:right;
+  background:url(http://konamicodesites.s3.amazonaws.com/images/arrow_right.png) no-repeat 100% 50%;
+  padding:3px 20px 6px 0;
+}
+
+#rightbar #footer p {
+  font-size:12px;
+}
+
+#rightbar #footer p.copyright {font-size:10px;}
+
+.spacer {clear:both;}
+img {border:none;}
+a {
+  text-decoration:none;
+  color:#ccccd9;
+  outline:0;
+}

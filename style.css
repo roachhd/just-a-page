@@ -184,10 +184,6 @@ to
   opacity:1;
 }  
 }
-.pink
-{
-  color:#f92672;
-}
 p {
   font-family: 'Open Sans', Helvetica, serif;
  }
@@ -197,3 +193,8 @@ p {
   margin-top: 100px;
   text-align: center;
 }
+.pink
+{
+  color:#f92672;
+}
+

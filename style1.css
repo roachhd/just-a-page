@@ -1,4 +1,24 @@
-*{margin:0;padding:0;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;position:relative;}img{max-width:100%;height:auto;}p,ul,ol,table,hr,.p,h1,h2,.alpha,.beta{margin-bottom:30px;margin-bottom:1.5rem;}h1,.alpha{font-weight:400;font-size:3rem;line-height:1;}h2,.beta{font-weight:400;}h3,.gamma{font-weight:400;}.amp{font-style:italic;}a{color:#cc4400;text-decoration:none;}a:hover{text-decoration:underline;}.wrap{max-width:740px;max-width:35rem;padding:30px;padding:1.5rem;margin:0 auto;}::selection{background-color:#e9ecef;}::-moz-selection{background-color:#e9ecef;}html{font:125%/1.5 "Calendas Plus",Georgia,"Times New Roman",serif;color:#222;-webkit-font-smoothing:antialiased;-moz-font-feature-settings:"liga=1, dlig=1";-moz-font-feature-settings:"liga","dlig";-ms-font-feature-settings:"liga","dlig";-o-font-feature-settings:"liga","dlig";font-feature-settings:"liga","dlig";border:.75em solid #ddd;height:100%;}@media screen and (max-width: 760px) {html{font-size:112.5%;height:auto;min-height:100%;}}body{display:block;text-align:center;height:100%;}body:before{content:'';display:inline-block;height:100%;vertical-align:middle;margin-right:-.25em;}.container{display:inline-block;vertical-align:middle;text-align:left;}.site-header{-webkit-animation:fade 1s .5s;-webkit-animation-fill-mode:both;}.site-title{font-size:1rem;line-height:1.5;margin-bottom:0;text-align:center;}.site-desc{display:block;}.content{-webkit-animation:fade 1s 1.5s;-webkit-animation-fill-mode:both;background:url(tools.svg) no-repeat center bottom;background-size:32px;margin-bottom:1.5rem;}.portrait-container{width:150px;width:7.5rem;height:150px;height:7.5rem;margin-right:1.5rem;border-radius:100%;overflow:hidden;float:left;}.portrait{display:block;border-radius:100%;}@media screen and (max-width: 35em) {.portrait-container{float:none;margin:0 auto 30px;margin-bottom:1.5rem;}}@-webkit-keyframes fade {
+*{margin:0;padding:0;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;position:relative;}
+img{max-width:100%;height:auto;}
+p,ul,ol,table,hr,.p,h1,h2,.alpha,.beta{margin-bottom:30px;margin-bottom:1.5rem;}
+h1,.alpha{font-weight:400;font-size:3rem;line-height:1;}
+h2,.beta{font-weight:400;}
+h3,.gamma{font-weight:400;}
+.amp{font-style:italic;}
+a{color:#cc4400;text-decoration:none;}
+a:hover{text-decoration:underline;}
+.wrap{max-width:740px;max-width:35rem;padding:30px;padding:1.5rem;margin:0 auto;}::selection{background-color:#e9ecef;}::-moz-selection{background-color:#e9ecef;}html{font:125%/1.5 "Calendas Plus",Georgia,"Times New Roman",serif;color:#222;-webkit-font-smoothing:antialiased;-moz-font-feature-settings:"liga=1, dlig=1";-moz-font-feature-settings:"liga","dlig";-ms-font-feature-settings:"liga","dlig";-o-font-feature-settings:"liga","dlig";font-feature-settings:"liga","dlig";border:.75em solid #ddd;height:100%;}@media screen and (max-width: 760px) {html{font-size:112.5%;height:auto;min-height:100%;}}body{display:block;text-align:center;height:100%;}body:before{content:'';display:inline-block;height:100%;vertical-align:middle;margin-right:-.25em;}.container{display:inline-block;vertical-align:middle;text-align:left;}
+.site-header{-webkit-animation:fade 1s .5s;-webkit-animation-fill-mode:both;}
+.site-title{font-size:1rem;line-height:1.5;margin-bottom:0;text-align:center;}
+.site-desc{display:block;}
+.content{-webkit-animation:fade 1s 1.5s;-webkit-animation-fill-mode:both;background:url(tools.svg) no-repeat center bottom;background-size:32px;margin-bottom:1.5rem;}.portrait-container{width:150px;width:7.5rem;height:150px;height:7.5rem;margin-right:1.5rem;border-radius:100%;overflow:hidden;float:left;}.portrait{display:block;border-radius:100%;}@media screen and (max-width: 35em) {.portrait-container{float:none;margin:0 auto 30px;margin-bottom:1.5rem;}}@-webkit-keyframes fade {
 	from { opacity: 0; }
 	to { opacity: 1; }
+}
+a:link, a:visited {
+  color: #f92672;
+}
+
+.pink {
+  color: #f92672;
 }

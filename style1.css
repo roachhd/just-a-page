@@ -75,7 +75,7 @@ a:hover
 
 html
 {
-  font:125%/1.5 "Oswald", Helvetica, sans-serif;
+  font:95%/1.5 "Oswald", Helvetica, sans-serif;
   color:#222;
   -webkit-font-smoothing:antialiased;
   -moz-font-feature-settings:"liga=1, dlig=1";
@@ -191,3 +191,9 @@ to
 p {
   font-family: 'Open Sans', Helvetica, serif;
  }
+
+.tiny {
+  font-size: 12px;
+  margin-top: 100px;
+  text-align: center;
+}

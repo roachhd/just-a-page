@@ -101,3 +101,17 @@ body {
 	text-shadow: 10px 10px 0 #ffd217, 20px 20px 0 #5ac7ff, 30px 30px 0 #ffd217, 40px 40px 0 #5ac7ff;
 
 }
+
+p {
+  font-family: 'Open Sans', Helvetica, serif;
+ }
+
+.tiny {
+  font-size: 12px;
+  margin-top: 100px;
+  text-align: center;
+}
+.pink
+{
+  color:#f92672;
+}
